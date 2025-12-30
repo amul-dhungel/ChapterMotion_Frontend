@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Chapter Motion Logo](public/logo.svg)
+![Chapter Motion Logo](docs/screenshots/logo.png)
 
 ### **AI-Powered Animation Studio for Educators**
 
@@ -47,6 +47,18 @@ Transform complex concepts into stunning educational animations with the power o
 ---
 
 ## 🖼️ Screenshots
+
+### Home Page
+![Home Page](docs/screenshots/home.png)
+*Beautiful landing page with "Bringing Stories to Life Through Motion" - showcasing animated hero section with gravity simulations and motion graphics*
+
+**Features:**
+- 🎨 **Hero Section**: Animated gradient text with motion graphics
+- 🎬 **Animation Previews**: Live examples of gravity, physics, and educational animations
+- 🚀 **Call-to-Action**: "View Our Work" and "Start a Project" buttons
+- 💫 **Professional Design**: Clean, modern interface with Chapter Motion branding
+
+---
 
 ### AI Editor
 ![AI Editor](docs/screenshots/editor.png)
