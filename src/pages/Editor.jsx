@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Logo from '../components/Logo';
+import InteractiveVideoPlayer from '../components/InteractiveVideoPlayer';
 import './Editor.css';
 
 function Editor() {
@@ -10,12 +11,20 @@ function Editor() {
     const [isGenerating, setIsGenerating] = useState(false);
     const [selectedPanel, setSelectedPanel] = useState('properties');
     const [selectedSvgIndex, setSelectedSvgIndex] = useState(1); // 0: left, 1: center, 2: right
+    const [showVideo, setShowVideo] = useState(false);
+    const [currentVideo, setCurrentVideo] = useState(null);
 
     const svgOptions = [
         '/animation1.svg',
         '/animation7.svg',
         '/animation2.svg'
     ];
+
+    const handleTestAnimation = () => {
+        // Load the HumanEvolution animation
+        setCurrentVideo('/manim_animations/media/videos/human_evolution/480p15/HumanEvolution.mp4');
+        setShowVideo(true);
+    };
 
     const handleSend = async () => {
         if (!input.trim() || isGenerating) return;
@@ -106,6 +115,13 @@ function Editor() {
                         </svg>
                         New Project
                     </button>
+                    <button className="toolbar-btn" onClick={handleTestAnimation}>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <circle cx="9" cy="9" r="7" stroke="currentColor" strokeWidth="2" fill="none" />
+                            <path d="M7 6l5 3-5 3V6z" fill="currentColor" />
+                        </svg>
+                        Test
+                    </button>
                     <button className="toolbar-btn gradient-btn">
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path d="M4 10l4 4 8-10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -152,7 +168,12 @@ function Editor() {
                 <main className="panel panel-center">
                     {/* Animation Preview Area */}
                     <div className="animation-preview-area">
-                        {output ? (
+                        {showVideo && currentVideo ? (
+                            <InteractiveVideoPlayer
+                                videoUrl={currentVideo}
+                                onClose={() => setShowVideo(false)}
+                            />
+                        ) : output ? (
                             <>
                                 <div className="svg-carousel">
                                     {/* Left SVG */}

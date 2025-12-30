@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/1584795214_438485094_223132457.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_241837659_3365249889.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_48106727_2119057094.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_4217992463_1500999933.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_1731070092_1514204365.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_3172009029_585070190.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_4217992463_412516051.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_2541553921_2348010601.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_2188937590_3487371707.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_4240544898_3152639813.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_2290089022_2211828712.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_fall/480p15/partial_movie_files/AppleFall/4072820271_2844360058_772231907.mp4'

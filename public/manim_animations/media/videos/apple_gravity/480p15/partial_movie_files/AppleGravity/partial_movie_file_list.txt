@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/911894794_3696419385_4027166516.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/30498700_3708294673_3544766653.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/30498700_4217992463_1975773974.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/30498700_2542271681_2351280694.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/30498700_181938889_3684685670.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/30498700_3826354524_832890367.mp4'
+file 'file:C:/Users/amul.dhungel/Chapter Motion/chapter-motion-react/public/manim_animations/media/videos/apple_gravity/480p15/partial_movie_files/AppleGravity/30498700_2844360058_761836603.mp4'
