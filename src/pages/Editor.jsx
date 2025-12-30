@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Logo from '../components/Logo';
 import InteractiveVideoPlayer from '../components/InteractiveVideoPlayer';
+import MotionCanvasPlayer from '../components/MotionCanvasPlayer';
 import './Editor.css';
 
 function Editor() {
@@ -13,6 +14,7 @@ function Editor() {
     const [selectedSvgIndex, setSelectedSvgIndex] = useState(1); // 0: left, 1: center, 2: right
     const [showVideo, setShowVideo] = useState(false);
     const [currentVideo, setCurrentVideo] = useState(null);
+    const [showMotionCanvas, setShowMotionCanvas] = useState(false);
 
     const svgOptions = [
         '/animation1.svg',
@@ -24,6 +26,13 @@ function Editor() {
         // Load the HumanEvolution animation
         setCurrentVideo('/manim_animations/media/videos/human_evolution/480p15/HumanEvolution.mp4');
         setShowVideo(true);
+        setShowMotionCanvas(false);
+    };
+
+    const handleTestMotionCanvas = () => {
+        // Show interactive Motion Canvas animation
+        setShowMotionCanvas(true);
+        setShowVideo(false);
     };
 
     const handleSend = async () => {
@@ -120,7 +129,14 @@ function Editor() {
                             <circle cx="9" cy="9" r="7" stroke="currentColor" strokeWidth="2" fill="none" />
                             <path d="M7 6l5 3-5 3V6z" fill="currentColor" />
                         </svg>
-                        Test
+                        Test Video
+                    </button>
+                    <button className="toolbar-btn" onClick={handleTestMotionCanvas}>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <circle cx="9" cy="9" r="6" fill="#FF0000" />
+                            <path d="M6 12l6-3-6-3z" fill="#FFF" />
+                        </svg>
+                        Test Interactive
                     </button>
                     <button className="toolbar-btn gradient-btn">
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -168,7 +184,11 @@ function Editor() {
                 <main className="panel panel-center">
                     {/* Animation Preview Area */}
                     <div className="animation-preview-area">
-                        {showVideo && currentVideo ? (
+                        {showMotionCanvas ? (
+                            <MotionCanvasPlayer
+                                onClose={() => setShowMotionCanvas(false)}
+                            />
+                        ) : showVideo && currentVideo ? (
                             <InteractiveVideoPlayer
                                 videoUrl={currentVideo}
                                 onClose={() => setShowVideo(false)}
