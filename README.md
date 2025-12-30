@@ -48,17 +48,17 @@ Transform complex concepts into stunning educational animations with the power o
 
 ## 🖼️ Screenshots
 
-### Home Page
-![Home Page](docs/screenshots/home.png)
-*Beautiful landing page with animated hero section*
-
 ### AI Editor
-![Editor](docs/screenshots/editor.png)
-*Professional video editor with timeline and controls*
+![AI Editor](docs/screenshots/editor.png)
+*Professional video editor with gravity animation, timeline controls, and settings panel*
 
-### Interactive Player
-![Player](docs/screenshots/player.png)
-*Custom video player with advanced controls*
+### Features Shown:
+- 🎨 **Left Panel**: Template library (Explainer, Data Viz, Educational, Social Media, Custom)
+- 🎬 **Center Panel**: Live animation preview with gravity simulation
+- ⚙️ **Right Panel**: Export settings (Duration, Resolution, Frame Rate, Voice Over)
+- 📊 **Timeline**: CapCut-style timeline with frame thumbnails
+- 💬 **Command Input**: Natural language animation generation
+- 🎯 **Interactive Elements**: Clickable objects showing real-time physics data
 
 ---
 
