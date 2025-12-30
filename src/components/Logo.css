@@ -1,0 +1,33 @@
+.logo {
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateY(-2px);
+}
+
+.logo-small {
+    width: 150px;
+    height: auto;
+}
+
+.logo-medium {
+    width: 300px;
+    height: auto;
+}
+
+.logo-large {
+    width: 400px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo-medium {
+        width: 250px;
+    }
+
+    .logo-large {
+        width: 300px;
+    }
+}
